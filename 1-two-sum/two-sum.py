@@ -5,6 +5,7 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        #dictionary to store
         seen = {}
         for i, num in enumerate(nums):
             complement = target - num
